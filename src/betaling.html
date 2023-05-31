@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betaling</title>
+</head>
+<body class="min-w-fit bg-peach p-0 font-podimo">
+    <header class="m-8">
+        <nav class="flex justify-between">
+          <img class="max-h-6" src="/img/logo.svg" alt="">
+          <h3 class="md:hidden">UDFORSK VORES PODCASTS</h3>
+          <a class="md:hidden" href="abonnement.html"><h3>SE ABONNEMENTER</h3></a>
+          <a href="abonnement.html"><button class="bg-orange py-1 px-3 rounded-rounded text-white">PRØV GRATIS</button></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="m-6">
+            <a class="flex gap-2" href="abonnement.html">
+                <img src="/img/icon.svg" alt="">
+                <p>Tilbage</p>
+            </a>
+        </section>
+
+        <section class="grid justify-center gap-8">
+            <div>
+                <h2 class="text-h2">Betaling</h2>
+            </div>
+
+
+
+
+            <div>
+                <form class="grid gap-4">
+                    <label for="card"></label>
+                    <input id="card" placeholder="Kortnummer" name="card" type="number">
+        
+                    <label for="date"></label>
+                    <input id="date" placeholder="Udløbsdato" name="date" type="date">
+        
+                    <label for="cvc"></label>
+                    <input id="cvc" placeholder="CVC/CVV" name="cvc" type="number">
+                </form>
+            </div>
+
+            <div class="grid justify-center">
+                <a href="betaling.html"><button class="w-60 bg-orange p-2 rounded-rounded text-white">TILMELD</button></a>
+              </div>
+        </section>
+
+    
+
+    </main>
+    
+
+
+
+
+
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
